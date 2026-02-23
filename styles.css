@@ -246,8 +246,9 @@ body {
 
 .app-icon-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 12px;
+    justify-items: center;
 }
 
 .app-icon-link {
@@ -258,15 +259,19 @@ body {
     text-decoration: none;
     text-align: center;
     cursor: pointer;
+    width: 100%;
 }
 
 .app-icon {
     width: 45px;
     height: 45px;
+    min-width: 45px;
+    min-height: 45px;
     border-radius: 12px;
     background: white;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     object-fit: cover;
+    display: block;
     transition: transform 0.2s ease;
 }
 

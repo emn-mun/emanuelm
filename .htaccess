@@ -1,0 +1,7 @@
+# Force XML content type for sitemap
+<Files "sitemap.xml">
+    Header set Content-Type "application/xml; charset=utf-8"
+</Files>
+
+# Alternative method
+AddType application/xml .xml
