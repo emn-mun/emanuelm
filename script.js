@@ -2,9 +2,31 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Data ---
   const professionalExperience = [
     {
+      title: "Senior Product Engineer iOS",
+      company: "Deliveroo",
+      date: "March 2026 - Present",
+      description:
+        "Returning to Deliveroo for a second time as a Senior Product Engineer in the Growth team, owning the full lifecycle of iOS feature experiments from discovery and design through implementation, launch, and measurement. Lead product-focused engineering across iOS and backend surfaces, partnering closely with product, data science, and backend teams to improve customer growth outcomes.",
+      tasks: [
+        "act as a Directly Responsible Individual in the Growth team, owning feature experiments from design and implementation through rollout, monitoring, and iteration",
+        "use Claude Code, dedicated skills, and MCP integrations to navigate unfamiliar domains including Snowflake, remote configuration, and data science concepts, and to accelerate informed delivery",
+        "develop an automated iOS experiment validation tool that checks client configuration parity with backend configuration, preventing misconfigured experiments and weeks of wasted iteration",
+        "re-architect onboarding and login flows into a modular, state-driven architecture with strategy-based composition, supporting concurrent experiment variants without duplicating feature logic",
+        "optimise push notification and permission flows to reduce friction and improve signup conversion, monthly active users, and customer lifetime value",
+        "develop and lead feature delivery across frontend and backend boundaries, aligning product decisions, experiment design, implementation, and measurement with partner teams",
+      ],
+      skills: ["Swift", "iOS Product Engineering", "Product Development", "Growth Experiments", "Snowflake", "Claude Code", "AI Development", "Backend Development", "Data Analysis", "Technical Leadership", "Remote Configuration"],
+      media: [
+        { type: "image", src: "assets/deliveroo 1.jpg" },
+        { type: "image", src: "assets/deliveroo 2.jpg" },
+        { type: "image", src: "assets/deliveroo-screen-discover.png" },
+        { type: "image", src: "assets/deliveroo-screen-restaurant.png" },
+      ],
+    },
+    {
       title: "Senior Application Engineer iOS",
       company: "Vanguard",
-      date: "January 2026 - Present",
+      date: "January 2026 - March 2026",
       description:
         "Working at Vanguard, one of the world's largest investment management companies, on their consumer-facing iOS app serving millions of users. Driving feature delivery, mentoring engineers, and navigating complex enterprise dependencies across compliance, security, and vendor integrations.",
       tasks: [
@@ -262,8 +284,9 @@ document.addEventListener("DOMContentLoaded", () => {
       "Alamofire",
       "Sendbird SDK",
     ],
-    "Tools & Platforms": ["Xcode", "Git", "GitHub Actions", "Fastlane", "Jenkins", "Jira", "Segment", "Amplitude", "Firebase", "App Store Connect"],
-    Methodologies: ["Agile", "Scrum", "TDD", "MVVM-C", "CI/CD"],
+    "Tools & Platforms": ["Xcode", "Git", "GitHub Actions", "Fastlane", "Jenkins", "Jira", "Segment", "Amplitude", "Firebase", "App Store Connect", "Snowflake", "Claude Code", "MCP"],
+    "Product & Leadership": ["Product Development", "Growth Experimentation", "Technical Leadership", "Team Lead", "Data Analysis", "Backend Development", "AI-Assisted Development", "Cross-Functional Delivery"],
+    Methodologies: ["Agile", "Scrum", "TDD", "MVVM-C", "CI/CD", "Experimentation", "Data-Informed Product Development"],
   };
 
   // --- Hero Section Interactivity ---
